@@ -9,5 +9,4 @@ with open("2021/01/input.txt", "r") as f:
     for previous, current in zip(trioMeasurements, trioMeasurements[1:]): 
         if previous < current:
             nbIncrement+=1
-    else: 
-        print(nbIncrement)
+print(nbIncrement)
