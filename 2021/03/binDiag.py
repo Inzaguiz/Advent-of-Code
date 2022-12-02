@@ -1,6 +1,7 @@
 def transpose(matrix):
     output = []
     for index, row in enumerate(matrix):
+        row.pop()
         if (index == 0):
             for col in row:
                 output.append([col])
