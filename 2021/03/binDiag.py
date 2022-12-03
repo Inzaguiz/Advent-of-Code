@@ -7,7 +7,6 @@ with open("2021/03/input.txt", "r") as f:
     
 gamma = ""
 epsilon = ""
-print(len(binaryTable))
 for i in range(len(binaryTable[0])):
     bitAtIndex = []
     for j in binaryTable:
